@@ -1,0 +1,12 @@
+$def with (f)
+<html>
+	<head>
+		<title>Webpy PoC</title>	
+	</head>
+	<body>
+		<h1>Webpy PoC challenge</h1>
+		<form action="/" method="POST">
+			$:f.render()
+		</form>
+	</body>
+</html>

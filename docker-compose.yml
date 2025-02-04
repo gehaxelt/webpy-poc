@@ -1,0 +1,8 @@
+services:
+  webpypoc:
+    container_name: webpypoc
+    build:  .
+    volumes:
+      - ./app:/app:ro
+    ports:
+      - '8080:8080'
