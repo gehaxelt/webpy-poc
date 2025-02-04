@@ -8,7 +8,7 @@ app = web.application(urls, locals())
 render = web.template.render('templates/')
 
 template_Form = form.Form(
-    form.Password("template", description="Template"),
+    form.Textbox("template", description="Template"),
     form.Button("submit", type="submit", description="Submit")
 )
 
